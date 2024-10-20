@@ -1,0 +1,42 @@
+/env/
+
+*/migrations/*
+
+# Archivos de log
+*.log
+
+# Archivos de caché de bases de datos locales (si usas SQLite para pruebas)
+*.mysql
+
+# Archivos de configuraciones locales (como IDEs)
+.vscode/
+.idea/
+
+# Archivos de dependencias
+*.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos de media subidos por usuarios (si es necesario, mantén fuera del control de versiones)
+media/
+
+# Archivos estáticos compilados
+staticfiles/
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Información del sistema
+.DS_Store
+Thumbs.db
